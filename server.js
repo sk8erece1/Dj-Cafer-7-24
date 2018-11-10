@@ -115,4 +115,4 @@ client.on('message', msg => {
 	if (!msg.content.startsWith(ayarlar.prefix)) return;
 	if (commands.hasOwnProperty(msg.content.toLowerCase().slice(ayarlar.prefix.length).split(' ')[0])) commands[msg.content.toLowerCase().slice(ayarlar.prefix.length).split(' ')[0]](msg);
 });
-client.login(ayarlar.token);
+client.login(process.env.BOT_TOKEN);
