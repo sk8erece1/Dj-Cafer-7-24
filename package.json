@@ -1,7 +1,7 @@
-﻿{
-  "name": "müzik botu",
+{
+  "name": "djcafer",
   "version": "0.2.6",
-  "description": "müzik botu",
+  "description": "djcafer",
   "main": "server.js",
   "scripts": {
     "test": "node server.js",
